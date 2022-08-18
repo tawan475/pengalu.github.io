@@ -1,0 +1,40 @@
+body,html{
+
+    background:#3B4145;
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    
+    font-size: 18px;
+    height: 100%;
+    width:100%;
+    overflow: hidden;
+        /* Hide horizontal scrollbar */
+}
+
+.neonText {
+
+    
+    text-shadow: 
+        0 0 7px #fff;
+}
+
+.neonHeader {
+    
+    background-image: url("cyberpunkmkII.png");
+    width: 100%;
+    height: 75%;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: rgb(204 0 204 / 50%) 5px 0px 2px, rgb(0 204 166 / 50%) -4px 0px 5px, rgb(0 62 175) 5px 0px 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(168, 182, 179);
+
+    padding: 0px;
+    background-position: top left;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    /*background-position: center;
+    padding: 20px;*/
+}
