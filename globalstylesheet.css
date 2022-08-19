@@ -9,7 +9,39 @@ body,html{
     overflow: hidden;
         /* Hide horizontal scrollbar */
 }
+h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 100px;
+}
+h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 45px;
+}
+h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+.navigationButtons {
+    margin: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    white-space: nowrap;
+    position: relative;
+    clear: both;
+    display: inline-block;
+    margin-top: 10px;
 
+}
 .neonText {
 
     
@@ -18,19 +50,19 @@ body,html{
 }
 
 .neonHeader {
-    
+    display: inline;
     background-image: url("cyberpunkmkII.png");
     width: 100%;
     height: 75%;
-    
+    text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
     text-shadow: rgb(204 0 204 / 50%) 5px 0px 2px, rgb(0 204 166 / 50%) -4px 0px 5px, rgb(0 62 175) 5px 0px 10px;
     font-size: 30px;
     font-weight: bold;
-    color: rgb(168, 182, 179);
+    color: rgb(255, 255, 255);
 
-    padding: 0px;
+    
     background-position: top left;
     position: absolute;
     top: 0px;
