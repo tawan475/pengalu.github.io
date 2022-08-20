@@ -25,6 +25,7 @@ h3{
     font-size: 15px;
 }
 .navigationButtons {
+    z-index: 100;
     margin: 0px;
     margin-left: 0px;
     margin-right: 0px;
@@ -48,7 +49,11 @@ h3{
     text-shadow: 
         0 0 7px #fff;
 }
+a:link{
 
+    color: rgb(255, 255, 255);
+
+}
 .neonHeader {
     display: inline;
     background-image: url("cyberpunkmkII.png");
@@ -61,7 +66,7 @@ h3{
     font-size: 30px;
     font-weight: bold;
     color: rgb(255, 255, 255);
-
+    
     
     background-position: top left;
     position: absolute;
